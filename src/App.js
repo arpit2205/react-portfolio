@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import Fade from 'react-reveal/Fade';
+
+// components
+import NavBar from './components/Navbar';
+import Header from './components/Jumbotron';
+import Experience from './components/Experience';
+import Education from './components/Education';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <NavBar />
+      <Header />
+      <Education />
+      <Experience />
     </div>
   );
 }
