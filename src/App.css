@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+  #header {
+    padding: 70px 20px !important;
+  }
+
+  #header h1 {
+    display: none;
+  }
+}

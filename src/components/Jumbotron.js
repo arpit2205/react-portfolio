@@ -3,6 +3,7 @@ import { Jumbotron, Button, Row, Col } from 'reactstrap';
 import { SiLinkedin } from 'react-icons/si';
 import Fade from 'react-reveal/Fade';
 import HeadShake from 'react-reveal/HeadShake';
+import me from './me.png';
 
 const Header = (props) => {
   const navigate = () => {
@@ -31,15 +32,24 @@ const Header = (props) => {
             out within the larger container.
           </p>
           <p className="lead">
-            <Fade bottom>
-              <Button color="primary" onClick={navigate}>
-                Connect with me &nbsp;{' '}
-                <SiLinkedin
-                  style={{ transform: 'translateY(-1px)' }}
-                  className="icon"
-                />
-              </Button>
-            </Fade>
+            <div
+              style={{
+                display: 'flex',
+                justifyContent: 'flex-start',
+                alignItems: 'center',
+              }}
+            >
+              {/* <img src={me} style={{ height: '40px' }} className="mr-3" /> */}
+              <Fade bottom>
+                <Button color="primary" onClick={navigate}>
+                  Connect with me &nbsp;{' '}
+                  <SiLinkedin
+                    style={{ transform: 'translateY(-1px)' }}
+                    className="icon"
+                  />
+                </Button>
+              </Fade>
+            </div>
           </p>
         </Jumbotron>
       </Fade>
