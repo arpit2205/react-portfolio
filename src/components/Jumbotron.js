@@ -12,7 +12,11 @@ const Header = (props) => {
   return (
     <div>
       <Fade duration={1000}>
-        <Jumbotron className="px-4 py-5">
+        <Jumbotron
+          style={{ background: 'none', color: 'white' }}
+          id="header"
+          className="px-4 py-5"
+        >
           <h1 className="display-4">
             <HeadShake>Hey there! 👋</HeadShake>
           </h1>
