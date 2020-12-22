@@ -9,15 +9,25 @@ import {
 } from 'reactstrap';
 import Fade from 'react-reveal/Fade';
 
-const ExpCard = ({ role, date, image, desc, companyLink }) => {
+const ExpCard = ({
+  role,
+  date,
+  image,
+  desc,
+  companyLink,
+  link1text,
+  link2text,
+  link1url,
+  link2url,
+}) => {
   const navigate = () => {
     window.location = `${companyLink}`;
   };
 
   return (
     <div>
-      <Fade bottom>
-        <Card>
+      <Fade bottom duration={500}>
+        <Card className="card">
           <CardBody>
             <CardTitle tag="h5">{role}</CardTitle>
             <CardSubtitle tag="h6" className="mb-2 text-muted">
@@ -34,8 +44,8 @@ const ExpCard = ({ role, date, image, desc, companyLink }) => {
           />
           <CardBody>
             <CardText>{desc}</CardText>
-            <CardLink href="#">Card Link</CardLink>
-            <CardLink href="#">Another Link</CardLink>
+            <CardLink href={link1url}>{link1text}</CardLink>
+            <CardLink href={link2url}>{link2text}</CardLink>
           </CardBody>
         </Card>
       </Fade>

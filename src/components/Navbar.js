@@ -20,6 +20,10 @@ const NavBar = (props) => {
 
   const toggle = () => setIsOpen(!isOpen);
 
+  const navigate = () => {
+    window.location = 'https://www.instagram.com/arpithere_/';
+  };
+
   return (
     <div>
       <Navbar color="light" light expand="md">
@@ -48,7 +52,9 @@ const NavBar = (props) => {
               </NavItem>
             </ScrollIntoView>
           </Nav>
-          <NavbarText>Let's have a coffee ☕</NavbarText>
+          <NavbarText id="insta" onClick={navigate}>
+            Let's have a coffee ☕
+          </NavbarText>
         </Collapse>
       </Navbar>
     </div>

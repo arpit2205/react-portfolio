@@ -10,13 +10,17 @@ import {
 } from 'reactstrap';
 import Fade from 'react-reveal/Fade';
 
-const EduCard = ({ title, subtitle, image, desc }) => {
+const EduCard = ({ title, subtitle, image, desc, link }) => {
+  const navigate = () => {
+    window.location = `${link}`;
+  };
+
   return (
     <div>
-      <Fade bottom>
+      <Fade>
         <Card
           style={{ display: 'flex', flexDirection: 'row' }}
-          className="mb-3"
+          className="mb-3 card"
         >
           <div>
             <CardImg
@@ -26,6 +30,7 @@ const EduCard = ({ title, subtitle, image, desc }) => {
               width="100%"
               src={image}
               alt="Card image cap"
+              onClick={navigate}
             />
           </div>
           <div>

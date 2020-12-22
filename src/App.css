@@ -6,4 +6,36 @@
   #header h1 {
     display: none;
   }
+
+  #education h1 {
+    font-size: 32px;
+  }
+
+  #experience h1 {
+    font-size: 32px;
+  }
+}
+
+.card {
+  border: none;
+  box-shadow: 0 0 89px -9px rgba(0, 0, 0, 0.07);
+  background-color: white;
+  transition: all 0.3s;
+}
+
+.card:hover {
+  transform: scale(0.96);
+  box-shadow: none;
+}
+
+.card img {
+  cursor: pointer;
+}
+
+#insta {
+  cursor: pointer;
+}
+
+body {
+  background-color: #f8f9fa;
 }

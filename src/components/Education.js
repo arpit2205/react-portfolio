@@ -17,6 +17,7 @@ const Education = ({}) => {
             subtitle="2019-2023"
             desc="Maharaja Agrasen Institute of Technology, Delhi"
             image={mait}
+            link="https://mait.ac.in/"
           />
         </Col>
         <Col md={6}>
@@ -25,9 +26,11 @@ const Education = ({}) => {
             subtitle="2017-2018"
             desc="Central Board of Secondary Education"
             image={cbse}
+            link="https://cbse.nic.in/newsite/index.html"
           />
         </Col>
       </Row>
+      <hr className="" />
     </Container>
   );
 };

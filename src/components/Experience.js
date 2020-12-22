@@ -22,6 +22,8 @@ const Experience = () => {
               desc="GeeksforGeeks is an online computer science portal which provides well written, well thought, and well-explained solutions to programming/algorithm/interview questions. As a Technical Content Writing Intern, I'm actively contributing by writing and reviewing technical articles at GeeksforGeeks."
               image={gfg}
               companyLink="https://www.geeksforgeeks.org/"
+              link1text="My articles"
+              link1url="https://bit.ly/gfg-articles"
             />
           </Col>
           <Col md={4} className="mb-3">
@@ -31,6 +33,8 @@ const Experience = () => {
               desc="Developer Student Clubs are university-based community groups for students interested in Google developer technologies. As a core team member of Developer Student Club (DSC powered by Google) of Maharaja Agrasen Institute of Technology for the role of Frontend Developer, I'm actively contributing to team projects and mentoring students."
               image={dsc}
               companyLink="https://developers.google.com/community/dsc"
+              link1text="DSC Profile"
+              link1url="https://bit.ly/arpitgupta-dsc"
             />
           </Col>
           <Col md={4} className="mb-3">
