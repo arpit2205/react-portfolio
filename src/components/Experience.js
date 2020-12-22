@@ -44,6 +44,10 @@ const Experience = () => {
               desc="Designed, developed, and implemented frontend of an online ML-based hiring platform using HTML5, CSS3 and JavaScript. Oversaw web platform testing, troubleshooting, and user sampling prior to live deployment. Took technical interviews frequently for the intern hiring process. Led a team of UI Developers as a technical lead intern."
               image={jvr}
               companyLink="https://www.jobvacancyresult.com/"
+              link1text="Certificate"
+              link1url="https://drive.google.com/file/d/1MPCpKzgVw8VdwE6O5BGiNVIwRxprOiuz/view?usp=sharing"
+              link2text="Letter of recommendation"
+              link2url="https://drive.google.com/file/d/1fQX9F0f-zzl-6O9zWgI-7uEN_J30GLt_/view?usp=sharing"
             />
           </Col>
         </Row>
@@ -63,6 +67,8 @@ const Experience = () => {
               desc="Learn Student Ambassadors are a global group of campus leaders who are eager to help fellow students, create robust tech communities, and develop technical and career skills for the future. As a Beta member of this community, I'm constantly learning as well as helping students to learn about various Microsoft technologies by conducting online workshops and virtual events."
               image={microsoft}
               companyLink="https://studentambassadors.microsoft.com/"
+              link1text="Certificate"
+              link1url="https://drive.google.com/file/d/1H7uJYZjCd4yEF7QoC-h21nGoSDk1aiEc/view?usp=sharing"
             />
           </Col>
 
@@ -73,6 +79,8 @@ const Experience = () => {
               desc="Coding Blocks was founded in 2014 with a mission to create skilled software engineers for our country and the world with an aim to bridge the gap between the quality of skills demanded by industry and the quality of skills imparted by conventional institutes. As a campus ambassador, I'm actively promoting Coding Blocks and conducting workshops related to it in my college."
               image={cb}
               companyLink="https://codingblocks.com/"
+              link1text="Certificate of appreciation"
+              link1url="https://drive.google.com/file/d/1z_3eNlrqCZLugr0XCLFEU_KkAJlgvI1X/view?usp=sharing"
             />
           </Col>
         </Row>
