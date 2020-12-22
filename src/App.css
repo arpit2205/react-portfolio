@@ -16,7 +16,7 @@
   }
 
   .skill-badge {
-    font-size: 18px !important;
+    font-size: 22px !important;
   }
 }
 
@@ -45,11 +45,11 @@ body {
 }
 
 .skill-badge {
-  font-size: 32px;
+  font-size: 28px;
 }
 
 #skills {
-  background: linear-gradient(89.97deg, #6100ff -3.81%, #9c078d 102.23%);
+  background: #131a43;
   color: white;
   border-radius: 10px;
 }
