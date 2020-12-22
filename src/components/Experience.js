@@ -84,6 +84,7 @@ const Experience = () => {
             />
           </Col>
         </Row>
+        <hr />
       </Container>
     </div>
   );

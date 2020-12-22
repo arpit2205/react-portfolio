@@ -9,6 +9,7 @@ import Header from './components/Jumbotron';
 import Experience from './components/Experience';
 import Education from './components/Education';
 import Vanta from './components/Vanta';
+import Skills from './components/Skills';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Vanta />
       <Education />
       <Experience />
+      <Skills />
     </div>
   );
 }
