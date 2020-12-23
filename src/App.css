@@ -7,16 +7,12 @@
     display: none;
   }
 
-  #education h1 {
-    font-size: 32px;
-  }
-
-  #experience h1 {
+  .section-heading {
     font-size: 32px;
   }
 
   .skill-badge {
-    font-size: 22px !important;
+    font-size: 20px !important;
   }
 }
 
@@ -41,7 +37,7 @@
 }
 
 body {
-  background-color: #f8f9fa;
+  background-color: white;
 }
 
 .skill-badge {
@@ -52,8 +48,18 @@ body {
   background: #131a43;
   color: white;
   border-radius: 10px;
+  box-shadow: none;
 }
 
 #skills:hover {
-  transform: scale(1);
+  transform: none;
+}
+
+#skill-svg {
+  width: 100%;
+  /* padding-top: -40px; */
+  transform: translateY(-20px) !important;
+}
+
+.section-heading {
 }

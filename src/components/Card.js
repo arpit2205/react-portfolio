@@ -28,25 +28,27 @@ const ExpCard = ({
     <div>
       <Fade bottom duration={500}>
         <Card className="card">
-          <CardBody>
-            <CardTitle tag="h5">{role}</CardTitle>
-            <CardSubtitle tag="h6" className="mb-2 text-muted">
-              {date}
-            </CardSubtitle>
-          </CardBody>
-          <img
-            className="company-logo"
-            width="100%"
-            src={image}
-            alt="Card image cap"
-            className="p-2"
-            onClick={navigate}
-          />
-          <CardBody>
-            <CardText>{desc}</CardText>
-            <CardLink href={link1url}>{link1text}</CardLink>
-            <CardLink href={link2url}>{link2text}</CardLink>
-          </CardBody>
+          <Fade duration={500}>
+            <CardBody>
+              <CardTitle tag="h5">{role}</CardTitle>
+              <CardSubtitle tag="h6" className="mb-2 text-muted">
+                {date}
+              </CardSubtitle>
+            </CardBody>
+            <img
+              className="company-logo"
+              width="100%"
+              src={image}
+              alt="Card image cap"
+              className="p-2"
+              onClick={navigate}
+            />
+            <CardBody>
+              <CardText>{desc}</CardText>
+              <CardLink href={link1url}>{link1text}</CardLink>
+              <CardLink href={link2url}>{link2text}</CardLink>
+            </CardBody>
+          </Fade>
         </Card>
       </Fade>
     </div>
