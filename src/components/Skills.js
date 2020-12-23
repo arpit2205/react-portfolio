@@ -15,7 +15,7 @@ const Skills = ({}) => {
           </Zoom>
         </Col>
         <Col md={5}>
-          <Fade duration={500}>
+          <Fade duration={1000}>
             <img id="skill-svg" src={skillSVG} />
           </Fade>
         </Col>

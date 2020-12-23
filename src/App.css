@@ -58,8 +58,5 @@ body {
 #skill-svg {
   width: 100%;
   /* padding-top: -40px; */
-  transform: translateY(-20px) !important;
-}
-
-.section-heading {
+  /* transform: translateY(-20px) !important; */
 }
