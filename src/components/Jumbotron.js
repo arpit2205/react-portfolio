@@ -4,6 +4,7 @@ import { SiLinkedin } from 'react-icons/si';
 import Fade from 'react-reveal/Fade';
 import HeadShake from 'react-reveal/HeadShake';
 import me from './me.png';
+import rocket from './emoji/rocket.gif';
 
 const Header = (props) => {
   const navigate = () => {

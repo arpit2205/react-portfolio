@@ -14,6 +14,8 @@ import {
   NavbarText,
 } from 'reactstrap';
 import ScrollIntoView from 'react-scroll-into-view';
+import coffee from './emoji/coffee.gif';
+import peace from './emoji/peace.gif';
 
 const NavBar = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,7 +29,9 @@ const NavBar = (props) => {
   return (
     <div>
       <Navbar color="light" light expand="md">
-        <NavbarBrand href="/">Arpit Gupta</NavbarBrand>
+        <NavbarBrand href="/">
+          <img src={peace} />
+        </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
@@ -63,7 +67,7 @@ const NavBar = (props) => {
             </ScrollIntoView>
           </Nav>
           <NavbarText id="insta" onClick={navigate}>
-            Let's have a coffee ☕
+            Let's have a coffee <img src={coffee} />
           </NavbarText>
         </Collapse>
       </Navbar>

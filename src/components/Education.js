@@ -3,12 +3,15 @@ import { Container, Row, Col, Card } from 'reactstrap';
 import EduCard from './EducationCard';
 import mait from './mait-logo.png';
 import cbse from './cbse-logo.png';
+import hundred from './emoji/hundred.gif';
 
 const Education = ({}) => {
   return (
     <Container id="education" fluid={true} className="px-4 py-2">
       <Row>
-        <h1 className="ml-3 mb-4 section-heading">Education 📘</h1>
+        <h1 className="ml-3 mb-4 section-heading">
+          Education <img src={hundred} />
+        </h1>
       </Row>
       <Row>
         <Col md={6}>
