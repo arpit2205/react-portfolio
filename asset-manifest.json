@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.d46625e4.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.538081e0.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.538081e0.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.8869b3a8.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.83ee7fdd.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.83ee7fdd.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.3748437a.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.3748437a.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/react-portfolio/static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.7a488bd8.chunk.js": "/react-portfolio/static/js/2.7a488bd8.chunk.js",
-    "static/js/2.7a488bd8.chunk.js.map": "/react-portfolio/static/js/2.7a488bd8.chunk.js.map",
+    "static/js/2.b3935d90.chunk.js": "/react-portfolio/static/js/2.b3935d90.chunk.js",
+    "static/js/2.b3935d90.chunk.js.map": "/react-portfolio/static/js/2.b3935d90.chunk.js.map",
     "static/js/3.f95f8951.chunk.js": "/react-portfolio/static/js/3.f95f8951.chunk.js",
     "static/js/3.f95f8951.chunk.js.map": "/react-portfolio/static/js/3.f95f8951.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
     "static/css/2.20aa2d7b.chunk.css.map": "/react-portfolio/static/css/2.20aa2d7b.chunk.css.map",
-    "static/css/main.d46625e4.chunk.css.map": "/react-portfolio/static/css/main.d46625e4.chunk.css.map",
-    "static/js/2.7a488bd8.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.7a488bd8.chunk.js.LICENSE.txt",
+    "static/css/main.8869b3a8.chunk.css.map": "/react-portfolio/static/css/main.8869b3a8.chunk.css.map",
+    "static/js/2.b3935d90.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.b3935d90.chunk.js.LICENSE.txt",
     "static/media/cb-logo.20cba134.png": "/react-portfolio/static/media/cb-logo.20cba134.png",
     "static/media/cbse-logo.cf5321ba.png": "/react-portfolio/static/media/cbse-logo.cf5321ba.png",
     "static/media/dsc-logo.9f2e5b2d.png": "/react-portfolio/static/media/dsc-logo.9f2e5b2d.png",
@@ -27,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.3748437a.js",
     "static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.7a488bd8.chunk.js",
-    "static/css/main.d46625e4.chunk.css",
-    "static/js/main.538081e0.chunk.js"
+    "static/js/2.b3935d90.chunk.js",
+    "static/css/main.8869b3a8.chunk.css",
+    "static/js/main.83ee7fdd.chunk.js"
   ]
 }
