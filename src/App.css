@@ -62,4 +62,6 @@ body {
 }
 
 .section-heading {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
 }

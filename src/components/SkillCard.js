@@ -18,7 +18,7 @@ const SkillCard = (props) => {
       <Card id="skills" className=" mx-2 my-4 py-2">
         <CardBody>
           <CardTitle tag="h1" className="ml-2">
-            Skills
+            Skills 🤹‍♂️
           </CardTitle>
           <Fade cascade bottom>
             <div className="my-4">
@@ -37,7 +37,7 @@ const SkillCard = (props) => {
               <Badge color="primary" pill className="skill-badge m-2">
                 Python
               </Badge>
-              <Badge color="danger" pill className="skill-badge m-2">
+              <Badge color="primary" pill className="skill-badge m-2">
                 ReactJS
               </Badge>
               <Badge color="primary" pill className="skill-badge m-2">
@@ -70,7 +70,7 @@ const SkillCard = (props) => {
               <Badge color="primary" pill className="skill-badge m-2">
                 Wireframing
               </Badge>
-              <Badge color="success" pill className="skill-badge m-2">
+              <Badge color="primary" pill className="skill-badge m-2">
                 Agile Methodologies
               </Badge>
               <Badge color="primary" pill className="skill-badge m-2">
