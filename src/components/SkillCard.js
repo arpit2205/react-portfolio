@@ -37,7 +37,7 @@ const SkillCard = (props) => {
               <Badge color="primary" pill className="skill-badge m-2">
                 Python
               </Badge>
-              <Badge color="primary" pill className="skill-badge m-2">
+              <Badge color="danger" pill className="skill-badge m-2">
                 ReactJS
               </Badge>
               <Badge color="primary" pill className="skill-badge m-2">
@@ -70,8 +70,8 @@ const SkillCard = (props) => {
               <Badge color="primary" pill className="skill-badge m-2">
                 Wireframing
               </Badge>
-              <Badge color="primary" pill className="skill-badge m-2">
-                Agile Methods
+              <Badge color="success" pill className="skill-badge m-2">
+                Agile Methodologies
               </Badge>
               <Badge color="primary" pill className="skill-badge m-2">
                 Security

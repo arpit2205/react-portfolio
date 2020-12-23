@@ -10,6 +10,7 @@ import Experience from './components/Experience';
 import Education from './components/Education';
 import Vanta from './components/Vanta';
 import Skills from './components/Skills';
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Education />
       <Experience />
       <Skills />
+      <Projects />
     </div>
   );
 }

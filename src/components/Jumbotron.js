@@ -28,8 +28,8 @@ const Header = (props) => {
 
           <hr className="my-2" />
           <p>
-            It uses utility classes for typography and spacing to space content
-            out within the larger container.
+            I have a profound interest in programming and computer networking.
+            Apart from tech, I love music and possess leadership skills.
           </p>
           <p className="lead">
             <div

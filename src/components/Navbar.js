@@ -51,6 +51,11 @@ const NavBar = (props) => {
                 <NavLink href="#">Skills</NavLink>
               </NavItem>
             </ScrollIntoView>
+            <ScrollIntoView selector="#projects">
+              <NavItem>
+                <NavLink href="#">Projects</NavLink>
+              </NavItem>
+            </ScrollIntoView>
             <ScrollIntoView selector="#contact">
               <NavItem>
                 <NavLink href="#">Contact</NavLink>
