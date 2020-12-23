@@ -74,7 +74,7 @@ const SkillCard = (props) => {
                 Agile Methodologies
               </Badge>
               <Badge color="primary" pill className="skill-badge m-2">
-                Security
+                Cyber Security
               </Badge>
             </div>
           </Fade>
