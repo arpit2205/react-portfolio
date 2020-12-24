@@ -62,7 +62,7 @@ const NavBar = (props) => {
                 <NavLink href="#">Projects</NavLink>
               </NavItem>
             </ScrollIntoView>
-            <ScrollIntoView selector="#contact">
+            <ScrollIntoView selector="#footer">
               <NavItem>
                 <NavLink href="#">Contact</NavLink>
               </NavItem>

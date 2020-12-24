@@ -13,13 +13,13 @@ const Header = (props) => {
 
   return (
     <div>
-      <Fade duration={1000}>
+      <Fade>
         <Jumbotron
           style={{ background: 'none', color: 'white' }}
           id="header"
           className="px-4 py-5"
         >
-          <h1 className="display-4">Hey there! 👋</h1>
+          <h1 className="display-4">Hey there👋</h1>
           <p className="lead" style={{ fontSize: '32px' }}>
             I'm <b>Arpit Gupta</b>, an experienced Frontend (React🚀) Developer
             from Delhi, India.
