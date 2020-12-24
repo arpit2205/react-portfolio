@@ -13,7 +13,6 @@ const Projects = () => {
           <Badge color="success">Coming soon</Badge>
         </h1>
       </Row>
-      <hr className="mx-2" />
     </Container>
   );
 };

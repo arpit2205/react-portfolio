@@ -11,6 +11,7 @@ import Education from './components/Education';
 import Vanta from './components/Vanta';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Experience />
       <Skills />
       <Projects />
+      <Footer />
     </div>
   );
 }

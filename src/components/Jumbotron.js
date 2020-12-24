@@ -19,9 +19,7 @@ const Header = (props) => {
           id="header"
           className="px-4 py-5"
         >
-          <h1 className="display-4">
-            <HeadShake>Hey there! 👋</HeadShake>
-          </h1>
+          <h1 className="display-4">Hey there! 👋</h1>
           <p className="lead" style={{ fontSize: '32px' }}>
             I'm <b>Arpit Gupta</b>, an experienced Frontend (React🚀) Developer
             from Delhi, India.

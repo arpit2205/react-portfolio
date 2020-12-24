@@ -14,6 +14,18 @@
   .skill-badge {
     font-size: 20px !important;
   }
+
+  .catchup-heading {
+    font-size: 28px !important;
+  }
+
+  #hand {
+    height: 40px;
+  }
+
+  .catchup {
+    font-size: 24px;
+  }
 }
 
 .card {
@@ -98,4 +110,17 @@ body {
 .navbar {
   font-weight: 500;
   /* font-family: 'Montserrat', sans-serif; */
+}
+
+#hand {
+  transform: translateY(-6px);
+}
+
+.catchup {
+  text-transform: none;
+  font-weight: 600;
+}
+
+#footer {
+  overflow-x: hidden;
 }
