@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.d3820e77.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.58a65b59.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.58a65b59.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.abc3f1b6.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.1cde5a6d.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.1cde5a6d.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.24fbd4bd.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.24fbd4bd.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/react-portfolio/static/css/2.20aa2d7b.chunk.css",
@@ -12,8 +12,9 @@
     "static/js/3.54b606f5.chunk.js.map": "/react-portfolio/static/js/3.54b606f5.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
     "static/css/2.20aa2d7b.chunk.css.map": "/react-portfolio/static/css/2.20aa2d7b.chunk.css.map",
-    "static/css/main.d3820e77.chunk.css.map": "/react-portfolio/static/css/main.d3820e77.chunk.css.map",
+    "static/css/main.abc3f1b6.chunk.css.map": "/react-portfolio/static/css/main.abc3f1b6.chunk.css.map",
     "static/js/2.5f85b51d.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.5f85b51d.chunk.js.LICENSE.txt",
+    "static/media/bomb.2b27b743.gif": "/react-portfolio/static/media/bomb.2b27b743.gif",
     "static/media/cb-logo.20cba134.png": "/react-portfolio/static/media/cb-logo.20cba134.png",
     "static/media/cbse-logo.cf5321ba.png": "/react-portfolio/static/media/cbse-logo.cf5321ba.png",
     "static/media/coffee.6fa6ce7d.gif": "/react-portfolio/static/media/coffee.6fa6ce7d.gif",
@@ -22,6 +23,7 @@
     "static/media/gfg-logo.bb6c22a5.png": "/react-portfolio/static/media/gfg-logo.bb6c22a5.png",
     "static/media/hundred.9031ae37.gif": "/react-portfolio/static/media/hundred.9031ae37.gif",
     "static/media/jvr-logo.d7dd4ea0.png": "/react-portfolio/static/media/jvr-logo.d7dd4ea0.png",
+    "static/media/logo.6ce24c58.svg": "/react-portfolio/static/media/logo.6ce24c58.svg",
     "static/media/mait-logo.1a6c82f7.png": "/react-portfolio/static/media/mait-logo.1a6c82f7.png",
     "static/media/me.fd2e0673.png": "/react-portfolio/static/media/me.fd2e0673.png",
     "static/media/microsoft-logo.a82caceb.png": "/react-portfolio/static/media/microsoft-logo.a82caceb.png",
@@ -34,7 +36,7 @@
     "static/js/runtime-main.24fbd4bd.js",
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.5f85b51d.chunk.js",
-    "static/css/main.d3820e77.chunk.css",
-    "static/js/main.58a65b59.chunk.js"
+    "static/css/main.abc3f1b6.chunk.css",
+    "static/js/main.1cde5a6d.chunk.js"
   ]
 }
