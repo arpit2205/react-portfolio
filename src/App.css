@@ -89,7 +89,7 @@ body {
 }
 
 .navbar-toggler-icon {
-  background-image: url('./components/menu.png') !important;
+  background-image: url('./components/emoji/menu.png') !important;
   transform: scale(1.4);
   margin-right: 2px !important;
 }
@@ -164,4 +164,17 @@ body {
 .bomb-row {
   margin-top: 40px;
   margin-bottom: 100px;
+}
+
+.navbar {
+  background-color: #131a43 !important;
+  color: white !important;
+}
+
+.navbar-brand {
+  color: white !important;
+}
+
+.nav-item {
+  color: white !important;
 }

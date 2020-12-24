@@ -31,7 +31,7 @@ const NavBar = (props) => {
     <div>
       <Navbar color="light" light expand="md">
         <NavbarBrand id="brand" href="/">
-          <img id="peace" src={peace} className="mr-2" />
+          {/* <img id="peace" src={peace} className="mr-2" /> */}
           ARPIT
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
@@ -39,37 +39,49 @@ const NavBar = (props) => {
           <Nav className="mr-auto" navbar>
             <ScrollIntoView selector="#education">
               <NavItem>
-                <NavLink href="#">Education</NavLink>
+                <NavLink className="nav-item" href="#">
+                  Education
+                </NavLink>
               </NavItem>
             </ScrollIntoView>
             <ScrollIntoView selector="#experience">
               <NavItem>
-                <NavLink href="#">Experience</NavLink>
+                <NavLink className="nav-item" href="#">
+                  Experience
+                </NavLink>
               </NavItem>
             </ScrollIntoView>
             <ScrollIntoView selector="#communities">
               <NavItem>
-                <NavLink href="#">Communities</NavLink>
+                <NavLink className="nav-item" href="#">
+                  Communities
+                </NavLink>
               </NavItem>
             </ScrollIntoView>
             <ScrollIntoView selector="#skills">
               <NavItem>
-                <NavLink href="#">Skills</NavLink>
+                <NavLink className="nav-item" href="#">
+                  Skills
+                </NavLink>
               </NavItem>
             </ScrollIntoView>
             <ScrollIntoView selector="#projects">
               <NavItem>
-                <NavLink href="#">Projects</NavLink>
+                <NavLink className="nav-item" href="#">
+                  Projects
+                </NavLink>
               </NavItem>
             </ScrollIntoView>
             <ScrollIntoView selector="#footer">
               <NavItem>
-                <NavLink href="#">Contact</NavLink>
+                <NavLink className="nav-item" href="#">
+                  Contact
+                </NavLink>
               </NavItem>
             </ScrollIntoView>
           </Nav>
-          <NavbarText id="insta" onClick={navigate}>
-            Let's have a coffee <img src={coffee} />
+          <NavbarText id="insta" className="nav-item" onClick={navigate}>
+            Let's have a coffee ☕{/* <img src={coffee} /> */}
           </NavbarText>
         </Collapse>
       </Navbar>
