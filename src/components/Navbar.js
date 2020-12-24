@@ -16,6 +16,7 @@ import {
 import ScrollIntoView from 'react-scroll-into-view';
 import coffee from './emoji/coffee.gif';
 import peace from './emoji/peace.gif';
+import RiMenu4Fill from 'react-icons/ri';
 
 const NavBar = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,8 +30,9 @@ const NavBar = (props) => {
   return (
     <div>
       <Navbar color="light" light expand="md">
-        <NavbarBrand href="/">
-          <img src={peace} />
+        <NavbarBrand id="brand" href="/">
+          <img id="peace" src={peace} className="mr-2" />
+          ARPIT
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>

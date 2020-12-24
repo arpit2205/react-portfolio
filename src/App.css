@@ -42,9 +42,14 @@ body {
 
 .skill-badge {
   font-size: 28px;
+  transition: all 0.4s;
 }
 
-#skills {
+.skill-badge:hover {
+  background-color: #131a43;
+}
+
+#skills-card {
   background: #131a43;
   color: white;
   border-radius: 10px;
@@ -64,4 +69,33 @@ body {
 .section-heading {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
+  transition: all 0.4s;
+}
+
+#peace {
+  transform: translateY(-2px);
+}
+
+.navbar-toggler-icon {
+  background-image: url('./components/menu.png') !important;
+  transform: scale(1.4);
+  margin-right: 2px !important;
+}
+
+.navbar button {
+  border: none !important;
+}
+
+.navbar button:focus {
+  outline: none;
+}
+
+#brand {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.navbar {
+  font-weight: 500;
+  /* font-family: 'Montserrat', sans-serif; */
 }

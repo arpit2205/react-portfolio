@@ -7,7 +7,7 @@ import Zoom from 'react-reveal/Zoom';
 
 const Skills = ({}) => {
   return (
-    <Container fluid={true}>
+    <Container id="skills" fluid={true}>
       <Row>
         <Col md={7} className="mt-4">
           <Zoom duration={500}>

@@ -15,7 +15,7 @@ import Fade from 'react-reveal/Fade';
 const SkillCard = (props) => {
   return (
     <div>
-      <Card id="skills" className=" mx-2 my-4 py-2">
+      <Card id="skills-card" className=" mx-2 my-4 py-2">
         <CardBody>
           <CardTitle tag="h1" className="ml-2 section-heading">
             Skills 💥
@@ -77,6 +77,9 @@ const SkillCard = (props) => {
                 Cyber Security
               </Badge>
             </div>
+          </Fade>
+          <Fade duration={4000}>
+            <h3 className="mx-2 mt-5 mb-2">and still counting...</h3>
           </Fade>
         </CardBody>
       </Card>
