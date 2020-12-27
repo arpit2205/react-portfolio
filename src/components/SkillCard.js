@@ -78,7 +78,7 @@ const SkillCard = (props) => {
               </Badge>
             </div>
           </Fade>
-          <Fade duration={4000}>
+          <Fade duration={2000}>
             <h3 className="mx-2 mt-5 mb-2">and still counting...</h3>
           </Fade>
         </CardBody>

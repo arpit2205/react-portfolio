@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ScrollIndicator from './ScrollIndicator';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ScrollIndicator />
   </React.StrictMode>,
   document.getElementById('root')
 );
