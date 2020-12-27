@@ -26,7 +26,7 @@ const ExpCard = ({
 
   return (
     <div>
-      <Fade bottom duration={500}>
+      <Fade duration={500}>
         <Card className="card">
           <CardBody>
             <CardTitle tag="h5">{role}</CardTitle>

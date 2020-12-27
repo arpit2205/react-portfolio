@@ -20,7 +20,7 @@ const SkillCard = (props) => {
           <CardTitle tag="h1" className="ml-2 section-heading">
             Skills 💥
           </CardTitle>
-          <Fade cascade bottom>
+          <Fade cascade>
             <div className="my-4">
               <Badge color="primary" pill className="skill-badge m-2">
                 HTML5
