@@ -38,6 +38,7 @@
 .card:hover {
   /* transform: scale(0.96); */
   box-shadow: 0 0 89px 40px rgba(0, 0, 0, 0.07);
+  transform: translateY(-8px);
 }
 
 .card img {
@@ -66,10 +67,11 @@ body {
   color: white;
   border-radius: 10px;
   box-shadow: none;
+  transform: none;
 }
 
 #skills:hover {
-  transform: none;
+  transform: none !important;
 }
 
 #skill-svg {
@@ -148,15 +150,13 @@ body {
 }
 
 #logo {
-  animation-name: roll;
-  animation-iteration-count: infinite;
-  animation-duration: 2s;
+  animation: roll infinite 4s linear;
 }
 @keyframes roll {
-  0% {
+  from {
     transform: rotate(0deg);
   }
-  100% {
+  to {
     transform: rotate(360deg);
   }
 }
