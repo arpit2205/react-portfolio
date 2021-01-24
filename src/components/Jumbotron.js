@@ -5,6 +5,7 @@ import Fade from 'react-reveal/Fade';
 import HeadShake from 'react-reveal/HeadShake';
 import me from './me.png';
 import rocket from './emoji/rocket.gif';
+import logo from '../logo.svg';
 
 const Header = (props) => {
   const navigate = () => {
@@ -19,17 +20,18 @@ const Header = (props) => {
           id="header"
           className="px-4 py-5"
         >
-          <h1 className="display-4">Hey there👋</h1>
+          {/* <h1 className="display-4">Hey there👋</h1> */}
           <p className="lead" style={{ fontSize: '32px' }}>
-            I'm <b>Arpit Gupta</b>, an experienced Frontend (React🚀) Developer
-            from Delhi, India.
+            I'm <b>Arpit Gupta</b>, an experienced Frontend React
+            {<img id="logo" className="loading" src={logo} />}Developer from
+            Delhi, India.
           </p>
 
-          <hr className="my-2" />
+          {/* <hr className="my-2" />
           <p>
             I have a profound interest in programming and computer networking.
             Apart from tech, I love music and possess leadership skills.
-          </p>
+          </p> */}
           <p className="lead">
             <div
               style={{

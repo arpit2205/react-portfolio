@@ -56,7 +56,7 @@ const Footer = () => {
       <Row>
         <Col>
           <p id="last-text">
-            Made with <img id="heart" src={heart} /> by ARPIT using{' '}
+            {'</>'} with <img id="heart" src={heart} /> by ARPIT using{' '}
             <img id="logo" className="loading" src={logo} />
           </p>
         </Col>

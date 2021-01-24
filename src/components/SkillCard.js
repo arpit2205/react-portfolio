@@ -47,8 +47,12 @@ const SkillCard = (props) => {
                 GitHub
               </Badge>
               <Badge color="primary" pill className="skill-badge m-2">
+                Firebase
+              </Badge>
+              <Badge color="primary" pill className="skill-badge m-2">
                 UI Design
               </Badge>
+
               <Badge color="primary" pill className="skill-badge m-2">
                 Web Development
               </Badge>

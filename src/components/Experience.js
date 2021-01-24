@@ -66,7 +66,7 @@ const Experience = () => {
         </Row>
 
         <Row>
-          <Col md={4} className="mb-3">
+          <Col md={6} className="mb-3">
             <ExpCard
               role="Microsoft Learn Student Ambassador"
               date="Aug 2020 - Present"
@@ -78,7 +78,7 @@ const Experience = () => {
             />
           </Col>
 
-          <Col md={4} className="mb-3">
+          <Col md={6} className="mb-3">
             <ExpCard
               role="Campus Ambassador"
               date="Jul 2020 - Present"
