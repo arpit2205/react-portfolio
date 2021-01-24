@@ -3,7 +3,7 @@ import HALO from 'vanta/dist/vanta.halo.min';
 import Header from './Jumbotron';
 
 const width = window.screen.width;
-let circleSize = width > 768 ? 1 : 0.4;
+let circleSize = width > 768 ? 0.7 : 0.4;
 
 class Vanta extends React.Component {
   constructor() {

@@ -18,7 +18,7 @@ const Projects = () => {
         <img src={bomb} className="mx-auto" />
       </Row>
 
-      <hr />
+      {/* <hr /> */}
     </Container>
   );
 };

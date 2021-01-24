@@ -15,7 +15,8 @@ const Experience = () => {
       <Container id="experience" fluid={true} className="px-4 py-2">
         <Row>
           <h1 className="ml-3 mb-4 mt-3 section-heading">
-            Experience <img src={rocket} />
+            Experience
+            {/* <img src={rocket} /> */}
           </h1>
         </Row>
         <Row>
@@ -56,12 +57,13 @@ const Experience = () => {
           </Col>
         </Row>
       </Container>
-      <hr className="mx-4" />
+      {/* <hr className="mx-4" /> */}
 
       <Container id="communities" fluid={true} className="px-4 py-2">
         <Row>
           <h1 className="ml-3 my-4 section-heading">
-            Communities <img src={sun} />
+            Communities
+            {/* <img src={sun} /> */}
           </h1>
         </Row>
 
@@ -90,7 +92,7 @@ const Experience = () => {
             />
           </Col>
         </Row>
-        <hr />
+        {/* <hr /> */}
       </Container>
     </div>
   );

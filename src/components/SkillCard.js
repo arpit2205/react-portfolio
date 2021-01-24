@@ -18,7 +18,7 @@ const SkillCard = (props) => {
       <Card id="skills-card" className=" mx-2 my-4 py-2">
         <CardBody>
           <CardTitle tag="h1" className="ml-2 section-heading">
-            Skills 💥
+            Skills
           </CardTitle>
           <Fade cascade>
             <div className="my-4">

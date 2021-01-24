@@ -20,7 +20,7 @@ const Skills = ({}) => {
           </Fade>
         </Col>
       </Row>
-      <hr className="mx-2" />
+      {/* <hr className="mx-2" /> */}
     </Container>
   );
 };

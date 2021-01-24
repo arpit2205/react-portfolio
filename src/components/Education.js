@@ -10,7 +10,8 @@ const Education = ({}) => {
     <Container id="education" fluid={true} className="px-4 py-2">
       <Row>
         <h1 className="ml-3 mb-4 section-heading">
-          Education <img src={hundred} />
+          Education
+          {/* <img src={hundred} /> */}
         </h1>
       </Row>
       <Row>
@@ -33,7 +34,7 @@ const Education = ({}) => {
           />
         </Col>
       </Row>
-      <hr className="" />
+      {/* <hr className="" /> */}
     </Container>
   );
 };
