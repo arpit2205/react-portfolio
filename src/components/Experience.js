@@ -27,8 +27,10 @@ const Experience = () => {
               desc="GeeksforGeeks is an online computer science portal which provides well written, well thought, and well-explained solutions to programming/algorithm/interview questions. As a Technical Content Writing Intern, I'm actively contributing by writing and reviewing technical articles at GeeksforGeeks."
               image={gfg}
               companyLink="https://www.geeksforgeeks.org/"
-              link1text="My articles"
-              link1url="https://bit.ly/gfg-articles"
+              link1text="Certificate"
+              link1url="https://drive.google.com/file/d/1Uv4CE0Y4iNC5EMlaRpb5G1VjtgGAmQQU/view?usp=sharing"
+              link2text="My articles"
+              link2url="https://bit.ly/gfg-articles"
             />
           </Col>
           <Col md={4} className="mb-3">

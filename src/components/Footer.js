@@ -39,7 +39,7 @@ const Footer = () => {
             color={'#FB3958'}
             className="mx-3 social-icon"
             onClick={() => {
-              navigate('https://www.instagram.com/arpithere_/');
+              navigate('https://www.instagram.com/arpithiside/');
             }}
           />
         </Col>
